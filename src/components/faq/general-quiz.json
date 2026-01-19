@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_general_quizs",
+  "info": {
+    "displayName": "generalQuiz"
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_services_sections_why_choose_uses",
+  "info": {
+    "displayName": "sections.why-choose-us"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Card": {
+      "type": "component",
+      "component": "services.shared-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

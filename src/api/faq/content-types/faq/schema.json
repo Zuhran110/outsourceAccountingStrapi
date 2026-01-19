@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "faq.hero",
+      "repeatable": false
+    },
+    "generalQuiz": {
+      "type": "component",
+      "component": "faq.general-quiz",
+      "repeatable": true
+    },
+    "bookACall": {
+      "type": "component",
+      "component": "faq.book-a-call",
+      "repeatable": false
+    }
+  }
+}

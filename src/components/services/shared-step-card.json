@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_shared_step_cards",
+  "info": {
+    "displayName": "shared.step-card"
+  },
+  "options": {},
+  "attributes": {
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_sections_get_starteds",
+  "info": {
+    "displayName": " sections.get-started"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "descriptionone": {
+      "type": "text"
+    },
+    "descriptiontwo": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

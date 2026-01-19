@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_services_sections_info_sections",
+  "info": {
+    "displayName": "sections.info-section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "descriptionOne": {
+      "type": "text"
+    },
+    "descriptionTwo": {
+      "type": "text"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

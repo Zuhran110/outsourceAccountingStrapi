@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_services_sections_service_processes",
+  "info": {
+    "displayName": "sections.service-process"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "highlightHeading": {
+      "type": "string"
+    },
+    "stepCard": {
+      "type": "component",
+      "component": "services.shared-step-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

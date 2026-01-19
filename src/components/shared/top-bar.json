@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_top_bars",
+  "info": {
+    "displayName": "topBar"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "number": {
+      "type": "biginteger"
+    },
+    "euNumber": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

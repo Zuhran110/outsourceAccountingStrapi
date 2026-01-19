@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contact_us_get_in_touches",
+  "info": {
+    "displayName": "getInTouch"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "detail": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
