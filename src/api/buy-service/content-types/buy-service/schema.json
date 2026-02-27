@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "buy_services",
+  "info": {
+    "singularName": "buy-service",
+    "pluralName": "buy-services",
+    "displayName": "buyService"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameNprize": {
+      "type": "component",
+      "component": "buy.buy",
+      "repeatable": true
+    }
+  }
+}

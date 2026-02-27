@@ -501,6 +501,34 @@ export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiBuyServiceBuyService extends Struct.SingleTypeSchema {
+  collectionName: 'buy_services';
+  info: {
+    displayName: 'buyService';
+    pluralName: 'buy-services';
+    singularName: 'buy-service';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::buy-service.buy-service'
+    > &
+      Schema.Attribute.Private;
+    nameNprize: Schema.Attribute.Component<'buy.buy', true>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiContactUsContactUs extends Struct.SingleTypeSchema {
   collectionName: 'contact_uses';
   info: {
@@ -1197,6 +1225,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about-us.about-us': ApiAboutUsAboutUs;
+      'api::buy-service.buy-service': ApiBuyServiceBuyService;
       'api::contact-us.contact-us': ApiContactUsContactUs;
       'api::faq.faq': ApiFaqFaq;
       'api::global.global': ApiGlobalGlobal;

@@ -52,6 +52,17 @@ export interface AboutUsOurValue extends Struct.ComponentSchema {
   };
 }
 
+export interface BuyBuy extends Struct.ComponentSchema {
+  collectionName: 'components_buy_buys';
+  info: {
+    displayName: 'buy';
+  };
+  attributes: {
+    Name: Schema.Attribute.String;
+    Prize: Schema.Attribute.Integer;
+  };
+}
+
 export interface ContactUsGetInTouch extends Struct.ComponentSchema {
   collectionName: 'components_contact_us_get_in_touches';
   info: {
@@ -398,6 +409,7 @@ declare module '@strapi/strapi' {
       'about-us.mission-statment': AboutUsMissionStatment;
       'about-us.our-story': AboutUsOurStory;
       'about-us.our-value': AboutUsOurValue;
+      'buy.buy': BuyBuy;
       'contact-us.get-in-touch': ContactUsGetInTouch;
       'contact-us.hero': ContactUsHero;
       'faq.book-a-call': FaqBookACall;

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_buy_buys",
+  "info": {
+    "displayName": "buy"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Prize": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
